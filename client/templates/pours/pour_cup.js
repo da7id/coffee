@@ -1,3 +1,3 @@
-$('.datepicker').datepicker(
-  format: 'mm-dd-yyyy'
-);
+Template.pourCup.rendered=function() {
+  $('#brew-datepicker').datepicker();
+}
