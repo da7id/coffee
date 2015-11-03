@@ -1,3 +1,7 @@
 Template.pourCup.rendered=function() {
-  $('#brew-datepicker').datepicker();
+  $('#brew-datepicker').datepicker({
+    todayBtn: "linked",
+    clearBtn: true,
+    todayHighlight: true
+  });
 }
