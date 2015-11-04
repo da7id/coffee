@@ -1,7 +1,7 @@
 Template.pourCup.rendered=function() {
   $('#brew-datepicker').datepicker({
     todayBtn: "linked",
-    clearBtn: trjue,
+    clearBtn: true,
     todayHighlight: true
   });
   console.log("TEST");
@@ -13,3 +13,9 @@ Template.pourCup.events({
       Router.go('addBeans'); 
   }
 })
+
+Template.pourCup.helpers({
+  beans: function() {
+    return Beans.find().fetch();
+  }
+});
