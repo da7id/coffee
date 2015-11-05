@@ -1,6 +1,10 @@
 <template name="pourItem">
   <div class="pour">
-    <h3>{{brewDate}}</h3>
-    {{brew}} {{temperature}} {{grind}} {{beans}}
+    <dl class="dl-horizontal">
+      <div class="well">
+        <dt><i class="glyphicon glyphicon-calendar"></i>{{brewDate}}</dt>
+        <dd><i class="glyphicon glyphicon-filter"></i>{{brew}} <i class="glyphicon glyphicon-tint"></i>{{temperature}} <i class="glyphicon glyphicon-cog"></i>{{grind}} <i class="glyphicon glyphicon-th"></i>{{beans}}</dd>
+      </div>
+    </dl>
   </div>
 </template>

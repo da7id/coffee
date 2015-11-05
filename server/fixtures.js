@@ -2,7 +2,7 @@ if( Pours.find().count() === 0) {
   Pours.insert({
     brew: 'Hario v60',
     brewTime: '3:20',
-    brewDate: Date(),
+    brewDate: '11/4/2015',
     temperature: '60',
     beans: 'Starbucks Sumatra',
     grind: '5',
@@ -11,7 +11,7 @@ if( Pours.find().count() === 0) {
   Pours.insert({
     brew: 'Hario v60',
     brewTime: '3:20',
-    brewDate: Date(),
+    brewDate: '11/4/2015',
     temperature: '60',
     beans: 'Starbucks Sumatra',
     grind: '5',
@@ -20,7 +20,7 @@ if( Pours.find().count() === 0) {
   Pours.insert({
     brew: 'Hario v60',
     brewTime: '3:20',
-    brewDate: Date(),
+    brewDate: '11/4/2015',
     temperature: '60',
     beans: 'Starbucks Sumatra',
     grind: '5',
