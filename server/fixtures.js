@@ -6,7 +6,9 @@ if( Pours.find().count() === 0) {
     temperature: '60',
     beans: 'Starbucks Sumatra',
     grind: '5',
-    date: Date()
+    date: Date(),
+    rating: '3',
+    notes: 'Sample notes'
   });
   Pours.insert({
     brew: 'Hario v60',
@@ -15,7 +17,9 @@ if( Pours.find().count() === 0) {
     temperature: '60',
     beans: 'Starbucks Sumatra',
     grind: '5',
-    date: Date()
+    date: Date(),
+    rating: '3',
+    notes: 'Sample notes'
   });
   Pours.insert({
     brew: 'Hario v60',
@@ -24,7 +28,9 @@ if( Pours.find().count() === 0) {
     temperature: '60',
     beans: 'Starbucks Sumatra',
     grind: '5',
-    date: Date()
+    date: Date(),
+    rating: '3',
+    notes: 'Sample notes'
   });
 }
 if( Beans.find().count() === 0) {
