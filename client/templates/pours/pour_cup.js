@@ -18,7 +18,7 @@ Template.pourCup.events({
     var pour = {
       brewDate: $(e.target).find('[name=brew_date]').val(),
       brewTime: $(e.target).find('[name=time_taken]').val(),
-      brew:$(e.target).find('[name=brew]').val(),
+      brew: $(e.target).find('[name=brew]').val(),
       temperature: $(e.target).find('[name=temperature]').val(),
       beans: $(e.target).find('[name=beans]').val(),
       grind: $(e.target).find('[name=grind]').val(),
