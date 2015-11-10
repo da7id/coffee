@@ -45,7 +45,7 @@ Template.history.pourHistory = function() {
   },
 
   tooltip: {
-    pointFormat: 'You drank <b>{point.y}</b> pours of {point.series.name} in {point.x}'
+    pointFormat: 'You drank <b>{point.y}</b> pours of {point.series.name} in the {point.x}th month'
   },
 
   plotOptions: {
