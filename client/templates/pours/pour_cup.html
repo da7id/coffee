@@ -26,7 +26,7 @@
     <div class="form-group col-md-4">
       <label class="control-label" for="temperature">Water Temperature</label>
       <div class="controls">
-        <input name="temperature" id="url" type="text" value="" placeholder="Water temperature" class="form-control"/>
+        <input name="temperature" id="temperature" type="text" value="" placeholder="Water temperature" class="form-control"/>
       </div>
     </div>
     <div class="form-group col-md-4">
@@ -44,6 +44,18 @@
       <label class="control-label" for="grind">Grind Setting</label>
       <div class="controls">
         <input id="grind" name="grind" value="" placeholder="1-10" type="number" min="1" max="10"/> 
+      </div>
+    </div>
+    <div class="form-group col-md-4">
+      <label class="control-label" for="rating">How was it?</label>
+      <div class="controls">
+        <input name="rating" id="rating" type="number" value="" placeholder="1-5" min="1" max="5" />
+      </div>
+    </div>
+    <div class="form-group col-md-4">
+      <label class="control-label" for="notes">Notes</label>
+      <div class="controls">
+        <textarea name="notes" id="notes" value="" placeholder="Enter notes here"> </textarea>
       </div>
     </div>
     <input type="submit" value="Submit" class="btn btn-primary"/>

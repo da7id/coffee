@@ -21,7 +21,9 @@ Template.pourCup.events({
       brew:$(e.target).find('[name=brew]').val(),
       temperature: $(e.target).find('[name=temperature]').val(),
       beans: $(e.target).find('[name=beans]').val(),
-      grind: $(e.target).find('[name=grind]').val()
+      grind: $(e.target).find('[name=grind]').val(),
+      rating: $(e.target).find('[name=rating]').val(),
+      notes: $(e.target).find('[name=notes]').val()
     };
 
     Meteor.call('pourInsert', pour, function(error, result) {
