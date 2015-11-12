@@ -40,7 +40,7 @@ Template.history.pourHistory = function() {
 
   yAxis: {
     title: {
-      text: 'Month'
+      text: 'Pours'
     }
   },
 
