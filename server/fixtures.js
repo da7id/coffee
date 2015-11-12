@@ -1,6 +1,6 @@
 sample_brews=['Hario v60','Chemex','French Press'];
 sample_times=['11:30','9:14','3:34','12:20'];
-sample_dates=['10/4/2015','9/30/2015','4/28/2015','3/12/2015','10/1/2015'];
+sample_dates=['10/04/2015','09/30/2015','04/28/2015','03/12/2015','10/01/2015'];
 sample_temperatures=['200','194','180'];
 sample_beans=['Starbucks Sumatra','Starbucks French Roast','Big Bend Blonde'];
 sample_grind=['1','6','9'];
