@@ -13,7 +13,7 @@
         <input name="time_taken" id="time_taken" type="text" value="" placeholder="Time taken" class="form-control timepicker"/>
       </div>
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group">
       <label class="control-label" for="brew">Brew</label>
       <div class="controls">
         <select name="brew">
@@ -23,13 +23,13 @@
         </select>
       </div>
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group">
       <label class="control-label" for="temperature">Water Temperature</label>
       <div class="controls">
-        <input name="temperature" id="temperature" type="text" value="" placeholder="Water temperature" class="form-control"/>
+        <input name="temperature" id="temperature" type="number" value="" placeholder="1-300" min="1" max="300" />
       </div>
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group">
       <label class="control-label" for="beans">Coffee Beans</label>
       <div class="controls">
         <select id="beans" name="beans">
@@ -40,19 +40,19 @@
         </select>
       </div>
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group">
       <label class="control-label" for="grind">Grind Setting</label>
       <div class="controls">
         <input id="grind" name="grind" value="" placeholder="1-10" type="number" min="1" max="10"/> 
       </div>
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group">
       <label class="control-label" for="rating">How was it?</label>
       <div class="controls">
         <input name="rating" id="rating" type="number" value="" placeholder="1-5" min="1" max="5" />
       </div>
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group">
       <label class="control-label" for="notes">Notes</label>
       <div class="controls">
         <textarea name="notes" id="notes" value="" placeholder="Enter notes here"> </textarea>
